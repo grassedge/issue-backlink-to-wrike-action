@@ -20,7 +20,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Issue backlink to wrike
-      uses: grassedge/issue-backlink-to-wrike-action@1.0.0
+      uses: grassedge/issue-backlink-to-wrike-action@v1.0.0
       env:
         WRIKE_ACCESS_TOKEN: ${{ secrets.WRIKE_ACCESS_TOKEN }}
 ```
