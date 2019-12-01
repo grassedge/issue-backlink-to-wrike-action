@@ -3,3 +3,6 @@ description: 'Create backlink of issue to wrike task'
 runs:
   using: 'node12'
   main: 'index.js'
+branding:
+  icon: 'link'
+  color: 'gray-dark'
