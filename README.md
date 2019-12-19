@@ -25,6 +25,10 @@ jobs:
         WRIKE_ACCESS_TOKEN: ${{ secrets.WRIKE_ACCESS_TOKEN }}
 ```
 
+*env*
+
+- `WRIKE_ACCESS_TOKEN` : *required* Permanent Access Token of your wrike team.
+
 ## Demo
 
 ![example](docs/images/example.png)
